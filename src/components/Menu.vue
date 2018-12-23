@@ -60,8 +60,6 @@ export default class Menu extends Vue {
 
 <style lang="scss" scoped>
 .sidebar {
-  padding-left: 1.25rem;
-  padding-top: 2rem;
   background-color: #24373a;
   position: -webkit-sticky;
   position: sticky;
