@@ -1,6 +1,6 @@
 <template>
   <section id="app">
-    <div class="columns">
+    <div class="columns is-marginless">
       <app-menu class="column is-one-fifth is-one-quarter-tablet"/>
       <router-view class="section column"/>
     </div>

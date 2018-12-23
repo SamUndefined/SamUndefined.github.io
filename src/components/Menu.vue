@@ -66,7 +66,6 @@ export default class Menu extends Vue {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  margin-bottom: 0; 
   height: 100vh;
 }
 .sidebar * {
