@@ -4,7 +4,6 @@
       <app-menu class="column is-one-fifth is-one-quarter-tablet"/>
       <router-view class="section column"/>
     </div>
-    <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
   </section>
 </template>
 
