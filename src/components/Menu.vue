@@ -11,7 +11,7 @@
       </article>
       <p class="title is-5 name has-text-centered">{{ name }}</p>
       <p class="subtitle overview has-text-centered">
-        Software engineer | Making information accessible to all.
+        Software engineer | Free information & community involvement 👌
       </p>
       <ul class="menu-list">
         <li><a>Home</a></li>
