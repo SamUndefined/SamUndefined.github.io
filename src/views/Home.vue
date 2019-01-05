@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home margin-5-is-desktop">
     <div class="content">
         <h1>Hello World!</h1>
         <p>This website is a work-in-progress. In the meantime, have some links:</p>
@@ -29,8 +29,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.home {
-    margin-left: 5rem;
+@media screen and (min-width: 1024px) {
+    .margin-5-is-desktop {
+        margin-left: 5rem;
+    }
 }
 .link {
     font-weight: 100;
