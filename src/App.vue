@@ -2,7 +2,7 @@
   <section id="app">
     <div class="columns is-marginless">
       <app-menu class="column is-one-fifth is-one-quarter-tablet"/>
-      <router-view class="section column"/>
+      <router-view class="section column margin-5-is-desktop"/>
     </div>
   </section>
 </template>
@@ -30,6 +30,9 @@ export default class App extends Vue {
 @media screen and (min-width: 1024px) {
     .margin-5-is-desktop {
         margin-left: 5rem;
+    }
+    .is-three-quarters-desktop {
+      width: 75%;
     }
 }
 </style>
