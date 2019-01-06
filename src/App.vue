@@ -27,4 +27,9 @@ export default class App extends Vue {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+@media screen and (min-width: 1024px) {
+    .margin-5-is-desktop {
+        margin-left: 5rem;
+    }
+}
 </style>

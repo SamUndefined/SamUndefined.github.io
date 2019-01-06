@@ -29,11 +29,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@media screen and (min-width: 1024px) {
-    .margin-5-is-desktop {
-        margin-left: 5rem;
-    }
-}
 .link {
     font-weight: 100;
 }

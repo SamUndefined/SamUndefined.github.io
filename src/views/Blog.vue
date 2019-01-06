@@ -1,6 +1,6 @@
 <template>
     <div class="blog content columns">
-        <div class="column is-three-quarters">
+        <div class="column is-three-quarters margin-5-is-desktop">
             <h1>Hello blog</h1>
             <p class="date-posted has-text-grey">January 6th, 2019</p>
             <br>
