@@ -14,8 +14,8 @@
         Software engineer | Free information & community involvement 👌
       </p>
       <ul class="menu-list">
-        <li><a>Home</a></li>
-        <li><a>Blog</a></li>
+        <router-link tag="li" to="/"><a>Home</a></router-link>
+        <router-link tag="li" to="/blog"><a>Blog</a></router-link>
         <li>
           <a @click="toggleShowProjects" class="is-info">
             <b-icon
@@ -30,7 +30,7 @@
             <li><a>Games</a></li>
           </ul>
         </li>
-        <li><a>Contact</a></li>
+        <router-link tag="li" to="/contact"><a>Contact</a></router-link>
       </ul>
     </div>
   </div>
