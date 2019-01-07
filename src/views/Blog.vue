@@ -1,10 +1,10 @@
 <template>
-    <div class="blog content">
+    <div class="content">
         <div class="is-three-quarters-desktop">
             <h1>Hello blog</h1>
             <p class="date-posted has-text-grey">January 6th, 2019</p>
             <br>
-            <vue-markdown>
+            <vue-markdown class="article-body">
     This is my first (sort of) blog post and the start of the blog itself!
 
     This is not the first blog I've built - many framework/stack tutorials are centered around writing basic blogs. I decided to build it manually rather than using another service, though, for a few reasons:
@@ -36,7 +36,7 @@ export default class Blog extends Vue {
 </script>
 
 <style>
-.blog * {
+.article-body * {
     font-family: Arial, Helvetica, sans-serif;
 }
 .date-posted {
